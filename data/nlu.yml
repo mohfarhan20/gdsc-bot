@@ -41,9 +41,12 @@ nlu:
     - nice
     - siap
     - benar
+    - correct
     - iya
     - y
     - yes
+    - tentu
+    - sure
     - of course
     - indeed
     - lanjut
@@ -52,9 +55,19 @@ nlu:
     - dimengerti
     - understandable
     - paham
+    - menarik
+    - keren
+    - cool
+    - menakjubkan
+    - awesome
+    - luar biasa
+    - sounds good
+    - hebat
     - yap
     - yep
     - baik
+    - benar
+    - correct
     - great
     - good
     - sip
