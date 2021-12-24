@@ -185,3 +185,30 @@ nlu:
     - arigatou
     - selamat jalan
     -     
+  - intent: benefit
+    examples: |
+      - apa saja benefit join gdsc?
+      - kenapa saya harus join gdsc?
+      - apa yang bisa saya dapatkan di gdsc?
+      - apakah saya bisa berkembang disini?
+      - benefit apa yang akan saya dapatkan?
+      - sebutkan benefit apa yang saya dapatkan di gdsc?
+      - yakinkan saya untuk bergabung ke gdsc
+      - apakah gdsc bisa menjadi tempat berkembang bagi saya?
+      - apakah saya bisa mendapat relasi di gdsc?
+      - saya tertarik di pemograman, bisakah saya join di gdsc?
+  - intent: penolakan
+    examples: |
+      - tidak
+      - gak
+      - g
+      - engga
+      - dide
+      - semang
+      - malas
+      - gk
+      - ngga
+      - tidak usah
+      - tidak terima kasih
+      - gk usah
+      - gak jadi

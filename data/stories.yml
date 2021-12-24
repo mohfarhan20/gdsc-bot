@@ -48,3 +48,10 @@ stories:
   - action : utter_NearestEvent
   - intent : Goodbye
   - action : utter_Goodbye
+
+  - story: bot
+    steps:
+      - intent: benefit
+      - action: utter_benefit
+      - intent: penolakan
+      - action: utter_penolakan
