@@ -212,3 +212,49 @@ nlu:
       - tidak terima kasih
       - gk usah
       - gak jadi
+
+- intent: pengurus_gdsc
+  examples : |
+    - pengurus gdsc UNSRI ?
+    - pemimpin gdsc UNSRI ? 
+    - lead gdsc UNSRI ? 
+    - direktur utama gdsc UNSRI ? 
+    - ketua gdsc UNSRI ? 
+    - ketua divisi machine learning di gdsc UNSRI?
+    - ketua machine learning di gdsc UNSRI?
+    - ketua divisi backend development di gdsc UNSRI?
+    - ketua backend development di gdsc UNSRI?
+    - ketua divisi backend di gdsc UNSRI?
+    - ketua backend di gdsc UNSRI?
+    - ketua divisi relationship di gdsc UNSRI?
+    - ketua divisi UI/UX di gdsc UNSRI?
+    - ketua divisi UI di gdsc UNSRI?
+    - ketua divisi UX di gdsc UNSRI?
+    - ketua divisi web development di gdsc UNSRI?
+    - ketua web development di gdsc UNSRI?
+    - ketua divisi project management di gdsc UNSRI?
+    - ketua divisi mobile development di gdsc UNSRI?
+    - ketua divisi media di gdsc UNSRI?
+    - ketua divisi media and digital branding di gdsc UNSRI?
+    - ketua divisi mobile development di gdsc UNSRI?
+    - ketua mobile development di gdsc UNSRI?
+    
+- intent: siapa_saya
+  examples : |
+    - Kamu siapa?
+    - Kamu dibuat siapa? 
+    - pembuat kamu?
+    - Ini siapa?
+    - kamu bot apa?
+    - ini buatan siapa?
+    - informasi bot
+    - info bot
+    - bot buatan siapa?
+    - ini robot atau orang asli?
+    - info
+    - informasi
+    - informasi bot
+    - kamu bisa apa?
+    - bot bisa apa?
+    - bot ini bisa apa?
+    - bot ini bisa apa aja?

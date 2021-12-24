@@ -8,6 +8,8 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - pengurus_gdsc
+  - siapa_saya
 
 responses:
   utter_greet:
@@ -47,6 +49,25 @@ responses:
 
   utter_penolakan:
     - text: "oke tidak apa-apa, Terima kasih sudah menghubungi kami."
+  
+  utter_pengurus_gdsc:
+  - text: "Pengurus gdsc tahun 2021/2022 adalah: 
+          \nLead : Ferza Riyaldi 
+          \nCo-Lead : Ridho Weedy
+          \nCore Team Machine Learning : Gerald Plakasa
+          \nCore Team Back End Development : Nabiel Omar Syarif
+          \nCore Team Relationship : Dini Andriani
+          \nCore Team Mobile Development : Muhammad Farras
+          \nCore Team Media and Digital Branding : Artamananda
+          \nCore Team Web Development : Arya Yunanta
+          \nCore Team UI/UX : Gandi Subara
+          \nCore Team Project Management : Meutya Dewi Salsabila"
+
+  utter_siapa_saya:
+  - text: "Aku adalah bot buatan gdsc unsri, Menggunakan library Rasa
+          \nAku tahu tentang : 
+          \n-pengurus gdsc unsri 
+          \n-program kerja gdsc unsri"
 
 session_config:
   session_expiration_time: 60
