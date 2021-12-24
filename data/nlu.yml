@@ -171,9 +171,7 @@ nlu:
     - yang akan dilakukan DSC dalam waktu dekat
     - 
     
-    
-
-- intent : Goodbye
+  - intent : Goodbye
   examples : |
     - terima kasih
     - sampai jumpa
@@ -185,6 +183,7 @@ nlu:
     - arigatou
     - selamat jalan
     -     
+
   - intent: benefit
     examples: |
       - apa saja benefit join gdsc?
@@ -197,6 +196,7 @@ nlu:
       - apakah gdsc bisa menjadi tempat berkembang bagi saya?
       - apakah saya bisa mendapat relasi di gdsc?
       - saya tertarik di pemograman, bisakah saya join di gdsc?
+      
   - intent: penolakan
     examples: |
       - tidak
