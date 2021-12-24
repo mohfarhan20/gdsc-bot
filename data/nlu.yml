@@ -33,12 +33,62 @@ nlu:
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
+    - oke
+    - okay
+    - k
+    - sip
+    - sep
+    - nice
+    - siap
+    - benar
     - correct
+    - iya
+    - y
+    - yes
+    - tentu
+    - sure
+    - of course
+    - indeed
+    - lanjut
+    - next
+    - continue
+    - dimengerti
+    - understandable
+    - paham
+    - menarik
+    - keren
+    - cool
+    - menakjubkan
+    - awesome
+    - luar biasa
+    - sounds good
+    - hebat
+    - yap
+    - yep
+    - baik
+    - benar
+    - correct
+    - great
+    - good
+    - sip
+
+- intent: inquire_apa_gdsc
+  examples: |
+    - apa itu gdsc
+    - jelaskan apa itu gdsc
+    - apa kepanjangan gdsc
+    - gdsc singkatan dari
+    - gdsc?
+    - apa itu google developer student club
+    - jelaskan apa itu google developer student club
+    - google developer student club?
+    - organisasi apa gdsc
+    - club apa gdsc
+    - what is gdsc
+    - what gdsc stands for
+    - is gdsc an organization
+    - what is google developer student club
+    - explain what is gdsc
 
 - intent: deny
   examples: |
