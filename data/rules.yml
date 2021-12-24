@@ -11,3 +11,14 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Menjawab nama pengurus gdsc unsri
+  steps:
+  - intent: pengurus_gdsc
+  - action: utter_pengurus_gdsc
+
+- rule: Menjawab informasi bot
+  steps:
+  - intent: siapa_saya
+  - action: utter_siapa_saya
+
