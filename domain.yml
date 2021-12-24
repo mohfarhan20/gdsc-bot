@@ -11,23 +11,42 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
+
+  utter_Goodbye:
+    - text: "Terimakasih telah menggunakan bot kami"
+
+  utter_NearestEvent:
+    - text: "kegiatan GDSC dalam waktu dekat adalah WebDev Bootcamp"
+
+  utter_benefit:
+    - text: "Pertanyaan yang bagus!!
+        ada beberapa benefit yang bisa kamu dapatkan, seperti:
+        1. relasi
+        2. experience
+        3. mengembangkan hard skill dan soft skill
+        4. belajar banyak hal tentang dunia it
+        5. dan banyaknya
+        jadi apa yang kamu tunggu? ayo join bersama kami!!"
+
+  utter_penolakan:
+    - text: "oke tidak apa-apa, Terima kasih sudah menghubungi kami."
 
 session_config:
   session_expiration_time: 60

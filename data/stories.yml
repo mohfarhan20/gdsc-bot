@@ -28,3 +28,30 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+  - story : kegiatan comingsoon
+  steps :
+  - intent : greet
+  - action : utter_greet
+  - intent : NearestEvent
+  - action : utter_NearestEvent
+  - intent : Goodbye
+  - action : utter_Goodbye
+
+- story : kegiatan comingsoon2
+  steps :
+  - intent : greet
+  - action : utter_greet
+  - intent : mood_great
+  - action : utter_happy
+  - intent : NearestEvent
+  - action : utter_NearestEvent
+  - intent : Goodbye
+  - action : utter_Goodbye
+
+  - story: bot
+    steps:
+      - intent: benefit
+      - action: utter_benefit
+      - intent: penolakan
+      - action: utter_penolakan

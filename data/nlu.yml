@@ -33,12 +33,62 @@ nlu:
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
+    - oke
+    - okay
+    - k
+    - sip
+    - sep
+    - nice
+    - siap
+    - benar
     - correct
+    - iya
+    - y
+    - yes
+    - tentu
+    - sure
+    - of course
+    - indeed
+    - lanjut
+    - next
+    - continue
+    - dimengerti
+    - understandable
+    - paham
+    - menarik
+    - keren
+    - cool
+    - menakjubkan
+    - awesome
+    - luar biasa
+    - sounds good
+    - hebat
+    - yap
+    - yep
+    - baik
+    - benar
+    - correct
+    - great
+    - good
+    - sip
+
+- intent: inquire_apa_gdsc
+  examples: |
+    - apa itu gdsc
+    - jelaskan apa itu gdsc
+    - apa kepanjangan gdsc
+    - gdsc singkatan dari
+    - gdsc?
+    - apa itu google developer student club
+    - jelaskan apa itu google developer student club
+    - google developer student club?
+    - organisasi apa gdsc
+    - club apa gdsc
+    - what is gdsc
+    - what gdsc stands for
+    - is gdsc an organization
+    - what is google developer student club
+    - explain what is gdsc
 
 - intent: deny
   examples: |
@@ -90,3 +140,75 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent : NearestEvent
+  examples : |
+    - apa saja kegiatan GDSC dalam waktu dekat
+    - kegiatan apa saja yang berikutnya akan DSC lakukan dalam waktu dekat
+    - ada kegiatan apa DSC dalam waktu dekat
+    - apakah DSC memiliki kegiatan yang akan dilakukan sebentar lagi atau dalam waktu dekat
+    - sebutkan kegiatan DSC dalam waktu dekat
+    - kegiata apa si yang akan dilakukan DSC dalam jangka waktu sebentar lagi atau dekat
+    - event dsc dalam waktu dekat
+    - event dsc yang akan dilaksanakan sebentar lagi
+    - event dsc yang akan diselenggarakan dalam waktu sebentar lagi
+    - event dsc yang akan dilakukan dalam waktu dekat
+    - agenda/event DSC dalam waktu dekat
+    - event apa saja yang akan dilakukan DSC dalam waktu dekat
+    - acara yang akan dilaksanakan oleh DSC sebentar lagi
+    - acara yang akan dilaksanakan oleh DSC dalam waktu dekat
+    - acara yang diselenggarakan DSC dalam waktu dekat
+    - acara dsc yang akan datang
+    - kegiatan DSC dalam waktu dekat
+    - acara DSC waktu dekat
+    - acara DSC coming soon
+    - acara coming soon
+    - event coming soon
+    - kegiatan coming soon
+    - apa kegiatan DSC dalam waktu dekat
+    - nama acara DSC yang akan datang
+    - nama kegiatan DSC dalam waktu dekat 
+    - yang akan dilakukan DSC dalam waktu dekat
+    - 
+    
+    
+
+- intent : Goodbye
+  examples : |
+    - terima kasih
+    - sampai jumpa
+    - sampai ketemu lagi 
+    - ketemu dilain kesempatan
+    - makasi
+    - makasih
+    - semoga harimu indah
+    - arigatou
+    - selamat jalan
+    -     
+  - intent: benefit
+    examples: |
+      - apa saja benefit join gdsc?
+      - kenapa saya harus join gdsc?
+      - apa yang bisa saya dapatkan di gdsc?
+      - apakah saya bisa berkembang disini?
+      - benefit apa yang akan saya dapatkan?
+      - sebutkan benefit apa yang saya dapatkan di gdsc?
+      - yakinkan saya untuk bergabung ke gdsc
+      - apakah gdsc bisa menjadi tempat berkembang bagi saya?
+      - apakah saya bisa mendapat relasi di gdsc?
+      - saya tertarik di pemograman, bisakah saya join di gdsc?
+  - intent: penolakan
+    examples: |
+      - tidak
+      - gak
+      - g
+      - engga
+      - dide
+      - semang
+      - malas
+      - gk
+      - ngga
+      - tidak usah
+      - tidak terima kasih
+      - gk usah
+      - gak jadi
