@@ -140,3 +140,48 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent : NearestEvent
+  examples : |
+    - apa saja kegiatan GDSC dalam waktu dekat
+    - kegiatan apa saja yang berikutnya akan DSC lakukan dalam waktu dekat
+    - ada kegiatan apa DSC dalam waktu dekat
+    - apakah DSC memiliki kegiatan yang akan dilakukan sebentar lagi atau dalam waktu dekat
+    - sebutkan kegiatan DSC dalam waktu dekat
+    - kegiata apa si yang akan dilakukan DSC dalam jangka waktu sebentar lagi atau dekat
+    - event dsc dalam waktu dekat
+    - event dsc yang akan dilaksanakan sebentar lagi
+    - event dsc yang akan diselenggarakan dalam waktu sebentar lagi
+    - event dsc yang akan dilakukan dalam waktu dekat
+    - agenda/event DSC dalam waktu dekat
+    - event apa saja yang akan dilakukan DSC dalam waktu dekat
+    - acara yang akan dilaksanakan oleh DSC sebentar lagi
+    - acara yang akan dilaksanakan oleh DSC dalam waktu dekat
+    - acara yang diselenggarakan DSC dalam waktu dekat
+    - acara dsc yang akan datang
+    - kegiatan DSC dalam waktu dekat
+    - acara DSC waktu dekat
+    - acara DSC coming soon
+    - acara coming soon
+    - event coming soon
+    - kegiatan coming soon
+    - apa kegiatan DSC dalam waktu dekat
+    - nama acara DSC yang akan datang
+    - nama kegiatan DSC dalam waktu dekat 
+    - yang akan dilakukan DSC dalam waktu dekat
+    - 
+    
+    
+
+- intent : Goodbye
+  examples : |
+    - terima kasih
+    - sampai jumpa
+    - sampai ketemu lagi 
+    - ketemu dilain kesempatan
+    - makasi
+    - makasih
+    - semoga harimu indah
+    - arigatou
+    - selamat jalan
+    -     
